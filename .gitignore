@@ -1,0 +1,42 @@
+# Segger Embedded Studio (SES) settings
+
+
+# Ignore Debug and Release directories inside any 'output' folder
+**/output/Debug/
+**/output/Release/
+
+
+# Build output folders
+_build/
+_build_nrf52/
+Debug/
+Release/
+*.out
+*.hex
+*.bin
+*.elf
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python/utility scripts (if any)
+__pycache__/
+*.pyc
+
+# Nordic SDK generated files
+_config/
+_generated/
+
+# Any other IDE/editor files
+*.user
+*.userprefs
+
+
